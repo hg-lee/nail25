@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/* 새글 스킨 (latest) */
+.lat {position:relative;margin-bottom:20px}
+.lat .lat_title a {font-size:1.6em;text-align:left;padding-bottom:10px;margin-bottom:10px;position:relative}
+.lat .lat_title a:after {content:"";width:35px;position:absolute;border-bottom:1px solid red;left:0;bottom:0}
+
+.lat ul {padding:15px 0}
+.lat li {position:relative;line-height:18px;padding:5px 0;position:relative;border-bottom:1px solid #eceeef}
+.lat li a {font-size:1.2em}
+.lat li a strong {color:#fe4444}
+.lat li a:hover {color:#4493fe}
+.lat li .lat_info {padding:5px 0;color:#808080;font-size:1em}
+.lat li .lt_nick {font-size:0.98em}
+.lat li .lt_nick img {border-radius:50%}
+.lat li .fa-heart {color:#ff0000}
+.lat li .fa-lock {display:inline-block;line-height:14px;width:16px;font-size:0.833em;color:#fff;background:#ad68d8;text-align:center;border-radius:2px;border:1px solid #ad68d8;font-size:12px}
+.lat li .new_icon {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#fff;background:#fe4444;text-align:center;border-radius:2px;margin-left:3px}
+.lat li .hot_icon {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#fff;background:#e52955;text-align:center;border-radius:2px}
+.lat li .fa-caret-right {color:#bbb}
+
+.lat .empty_li {line-height:145px;color:#666;text-align:center;padding:0;border:0}
+.lat .empty_li:before {background:none;padding:0}
+
+.lat .lt_cmt {color:#4493fe}

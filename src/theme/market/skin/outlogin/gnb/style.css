@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+/* 아웃로그인 스킨 */
+.gnb_ol {float:left;display:inline-block}
+.gnb_ol h2 {position:absolute;font-size:0;text-indent:-9999em;line-height:0;overflow:hidden}
+
+#gb_ol_before:after {display:block;visibility:hidden;clear:both;content:""}
+.ol_bf_txt {display:inline-block;padding-left:20px;line-height:45px}
+
+#gn_ol_after {margin:0 0 0 10px;line-height:45px}
+#gn_ol_after .profile_img {display:inline-block;width:30px;height:30px;vertical-align:middle}
+#gn_ol_after .profile_img img {border-radius:50%;margin-right:5px;width:30px;height:30px}
+#gn_ol_after strong {}

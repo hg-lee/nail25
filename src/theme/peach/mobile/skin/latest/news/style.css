@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.lt_news{margin:0 auto;max-width:1200px;padding:150px 0}
+.lt_news h2{text-align:center;font-size:1.846em;margin-bottom:50px}
+.lt_news h2 a{padding:10px 0;border-bottom:2px solid #ea185f}
+.lt_news ul{padding:0 10px}
+.lt_news ul:after {display:block;visibility:hidden;clear:both;content:""}
+.lt_news li{float:left;width:25%;padding:10px}
+.lt_news li .lt_img img{max-width:100%;height:auto}
+.lt_news li .lt_tit{font-size:1.385em;font-weight:bold;margin:10px 0;display:block;line-height:1.5em}
+.lt_news li .lt_detail{color:#acacac;line-height:1.5em}
+
+.lt_news .fa-download{width:16px;height:16px;line-height:16px;background:#e89f31;color:#fff;text-align:center;font-size:10px;border-radius:4px;vertical-align:middle;}
+.lt_news .fa-link{width:16px;height:16px;line-height:16px;background:#ad68d8;color:#fff;text-align:center;font-size:10px;border-radius:4px;vertical-align:middle;font-weight: normal;}
+.lt_news .fa-heart{width:16px;height:16px;line-height:16px;background:#ff66b0;color:#fff;text-align:center;font-size:10px;border-radius:4px;vertical-align:middle;;font-weight: normal;}
+.lt_news .new_icon{display:inline-block;width: 16px;line-height:16px ;font-size:0.833em;color:#ffff00;background:#6db142;border-radius:4px;text-align:center;vertical-align:middle;font-size:11px}
+.lt_news .hot_icon{display:inline-block;width: 16px;line-height:16px ;font-size:0.833em;color:#fff;background:#e52955;;border-radius:4pxtext-align:center;;vertical-align:middle;font-weight:normal;font-size:11px}
+.lt_news .fa-lock{display: inline-block;line-height: 14px;width: 16px;font-size: 0.833em;color: #4f818c;background: #cbe3e8;text-align: center;border-radius: 4px;font-size: 12px;border:1px solid #a2c6ce}
+
+.lt_news .empty_li  {width:100%;padding:100px 0;text-align:center;color:#aaa}    
+
+@media (max-width: 969px){
+    .lt_news{padding:50px 0}
+    .lt_news h2 {font-size:1.5em;margin-bottom:30px}
+    .lt_news li{width:50%}
+    .lt_news li:nth-child(2n+1){clear:both}
+    .lt_news li .lt_tit{font-size:1.231em}
+ }

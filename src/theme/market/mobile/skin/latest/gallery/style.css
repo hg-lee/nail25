@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/* 갤러리 새글 스킨 (latest) */
+.gall_lt {position:relative}
+.gall_lt .lat_title {font-size:1.4em;text-align:left;padding-bottom:10px;margin-bottom:10px;position:relative}
+.gall_lt .lat_title:after {content:"";width:35px;position:absolute;border-bottom:1px solid red;left:0;bottom:0}
+
+
+.gall_lt .lt_more {position:absolute;top:11px;right:10px;display:block;width:25px;line-height:25px;color:#aaa;border-radius:3px;text-align:center}
+.gall_lt .lt_more:hover {color:#777}
+.gall_lt ul:after {display:block;visibility:hidden;clear:both;content:""}
+
+.gall_lt li:after {display:block;visibility:hidden;clear:both;content:""}
+.gall_lt li {position:relative;margin-bottom:10px}
+.gall_lt li:last-child {margin-bottom:0}
+.gall_lt li .lt_img {display:inline-block;float:left;width:40%}
+.gall_lt li .lt_img img {width:100%;height:auto}
+.gall_lt li .lt_cnt {float:left;padding-left:10px;display:inline-block;width:60%}
+.gall_lt li .lt_cnt .li_tit {display:inline-block;font-size:1.2em}
+.gall_lt li .lat_info {padding:5px 0;color:#808080;font-size:1em}
+.gall_lt li .lt_nick {font-size:0.98em}
+.gall_lt li .lt_nick img {border-radius:50%}
+
+.gall_lt li a strong {color:#fe4444}
+.gall_lt li a:hover {color:#4493fe}
+.gall_lt li .fa-heart{color:#ff0000}
+.gall_lt li .fa-lock {display:inline-block;line-height:14px;width: 16px;font-size:0.833em;color:#fff;background:#ad68d8;text-align:center;border-radius:2px;border:1px solid #ad68d8;font-size:12px}
+.gall_lt li .new_icon {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#fff;background:#fe4444;text-align:center;border-radius:2px;margin-left:3px}
+.gall_lt li .hot_icon {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#fff;background:#e52955;text-align:center;border-radius:2px}
+.gall_lt li .fa-caret-right {color:#bbb}
+
+.gall_lt li:first-child {width:100%;height:auto;margin-right:15px}
+.gall_lt li:first-child .lt_img {width:100%}
+.gall_lt li:first-child .lt_img img {width:100%;height:auto}
+.gall_lt li:first-child .lt_cnt {display:block;width:100%;padding:10px 0}
+.gall_lt li:first-child .lt_cmt {position:inherit;display:inline-block;background:transparent;vertical-align:baseline}
+
+.gall_lt .lt_cmt {position:absolute;left:0;bottom:0;background:#ffffffc4;text-align:right;color:#4493fe;font-size:11px;height:16px;line-height:16px;padding:0 5px;vertical-align:middle}
+

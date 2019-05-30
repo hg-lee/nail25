@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/* 이벤트 새글 스킨 (latest) */
+.event_lt {position:relative;float:left;width:49%}
+.event_lt .lat_title {position:absolute;font-size:0;line-height:0;overflow:hidden}
+
+.event_lt .lt_more {position:absolute;top:11px;right:10px;display:block;width:25px;line-height:25px;color:#aaa;border-radius:3px;text-align:center}
+.event_lt .lt_more:hover {color:#777}
+.event_lt ul:after {display:block;visibility:hidden;clear:both;content:""}
+
+.event_lt li {position:relative;float:left;width:100%;height:auto;margin-bottom:10px}
+.event_lt li:last-child {margin-bottom:0}
+.event_lt li .lt_img {display:inline-block;float:left;width:100%;height:auto}
+.event_lt li .lt_img img {width:100%;height:auto}
+
+.event_lt li .lt_cnt {float:left;padding-left:10px;display:inline-block;width:142px}
+.event_lt li .lt_cnt .li_tit {display:inline-block;font-size:1.2em}
+.event_lt li .lat_info {padding:5px 0;color:#808080;font-size:1em}
+.event_lt li .lt_nick {font-size:0.98em}
+.event_lt li .lt_nick img {border-radius:50%}
+
+.event_lt li a strong {color:#fe4444}
+.event_lt li a:hover {color:#4493fe}
+.event_lt li .fa-heart{color:#ff0000}
+.event_lt li .fa-lock {display:inline-block;line-height:14px;width: 16px;font-size:0.833em;color:#fff;background:#ad68d8;text-align:center;border-radius:2px;border:1px solid #ad68d8;font-size:12px}
+.event_lt li .new_icon {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#fff;background:#fe4444;text-align:center;border-radius:2px;margin-left:3px}
+.event_lt li .hot_icon {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#fff;background:#e52955;text-align:center;border-radius:2px}
+.event_lt li .fa-caret-right {color:#bbb}
+
+.event_lt .lt_cmt {position:absolute;left:0;bottom:0;background:#ffffffc4;text-align:right;color:#4493fe;font-size:11px;height:16px;line-height:16px;padding:0 5px;vertical-align:middle}
+

@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+/* 인기검색어 */
+#popular {background:red;margin:0 -10px 0;padding:10px 15px 0;text-align:left;background:#282828}
+#popular h2 {text-align:left;color:#fff}
+#popular div {padding:10px 0}
+#popular a {display:inline-block;height:22px;line-height:22px;color:#fff;margin-left:5px}
+#popular a:first-child {margin-left:0}

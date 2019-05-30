@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+/* 최근게시물 스킨 (latest) */
+.lt {position:relative;}
+.lt a{color:#fff}
+.lt ul {margin:0 0 10px;padding:0;list-style:none}
+.lt li{text-align:left;;margin:8px 0;line-height:1.5em;padding-left:20px;position:relative;  }
+.lt li:before{position:absolute;top:50%;left:4px;width:4px;height:4px;border-radius:3px;margin-top:-2px;background:#999;content:''}

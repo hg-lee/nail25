@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* 새글 스킨 (latest) */
+#mainArea2 .mainBoard {width:270px;padding:25px 25px 0 0}
+#mainArea2 .mainBoard h2 {position:relative;height:16px;line-height:16px}
+#mainArea2 .mainBoard h2 a {font-family:'Nanum Gothic', sans-serif;text-decoration:none;display:inline-block;width:100%;font-size:1.45em;color:#333}
+#mainArea2 .mainBoard h2 img {position:absolute;top:0;right:0}
+#mainArea2 .mainBoard ul {margin:15px 10px}
+#mainArea2 .mainBoard li {height:20px;line-height:20px;list-style:initial}

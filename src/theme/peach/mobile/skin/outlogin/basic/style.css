@@ -1,0 +1,23 @@
+@charset "utf-8";
+.right{border:0;background:none;position:relative;}
+.right button{;background:none;border:0;color:#c7c2bc;padding: 0 13px;height:40px;vertical-align:top}
+.right img{vertical-align:middle;width:20px;height:20px;border-radius:50px}
+
+#ol_after_private{display:none;position:absolute;top:40px;right:0;background:#fff;border-radius:3px;z-index:9;padding:10px 0;width:160px;
+-webkit-box-shadow: 0 2px 7px rgba(0,0,0,0.2) ;
+-moz-box-shadow: 0 2px 7px rgba(0,0,0,0.2);
+box-shadow: 0 2px 7px rgba(0,0,0,0.2);}
+#ol_after_private li{line-height:30px;display:block;float:none}
+#ol_after_private li a{color:#808a9b;display:block;padding: 0 15px}
+#ol_after_private li a:hover{background:#eee;color:#ea185f}
+#ol_after_private li a:after {display:block;visibility:hidden;clear:both;content:""}
+#ol_after_private li strong{display:inline-block;background:#fac843;float:right;line-height:20px;color:#fff;border-radius:30px;padding:0 7px;font-size:0.92em;margin-top:6px}
+#ol_after_private li .admin{color:#ff0000 !important}
+
+@media (max-width: 969px){
+    #tnb .right button{padding:0;color:#fff}
+    #tnb .prf{border-left:0;width:100%;padding: 0 0 10px}
+    #ol_after_private{left:0;right:none}
+    .right img{width:25px;height:25px}
+
+}

@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+/* 사진 스킨 (latest) */
+.gall_b_lt{position:relative}
+.gall_b_lt .lat_title a {font-size:1.4em;text-align:left;padding-bottom:10px;margin-bottom:10px;position:relative}
+.gall_b_lt .lat_title a:after {content:"";width:35px;position:absolute;border-bottom:1px solid red;left:0;bottom:0}
+
+.gall_b_lt ul:after {display:block;visibility:hidden;clear:both;content:""}
+.gall_b_lt ul {clear:both;margin:20px -5px 0;padding:15px 0}
+.gall_b_lt li {float:left;width:50%;margin-bottom:15px}
+.gall_b_lt li:nth-child(odd) {clear:both}
+.gall_b_lt li .pic_inner {padding:0 5px}
+.gall_b_lt li .lat_info {padding:5px 0;color:#808080;font-size:1em}
+.gall_b_lt li .lt_nick {font-size:0.98em}
+.gall_b_lt li .lt_nick img {border-radius:50%}
+
+.gall_b_lt li .lt_img {margin-bottom:10px;display:block}
+.gall_b_lt li .lt_img img {width:100%;height:auto}
+.gall_b_lt li a strong {color:#fe4444}
+.gall_b_lt li a:hover {color:#a22121}
+.gall_b_lt li .fa-heart {color:#ff0000}
+.gall_b_lt li .fa-lock {display:inline-block;line-height:14px;width: 16px;font-size:0.833em;color:#fff;background:#ad68d8;text-align:center;border-radius:2px;font-size:12px;border:1px solid #ad68d8}
+.gall_b_lt li .new_icon {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#fff;background:#fe4444;text-align:center;border-radius:2px;margin-left:3px}
+.gall_b_lt li .hot_icon {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#fff;background:#e52955;text-align:center;border-radius: 2px;}
+.gall_b_lt li .fa-caret-right {color:#bbb}
+
+.gall_b_lt .empty_li {line-height:145px;color:#666;text-align:center;padding:0;}
+.gall_b_lt .empty_li:before {background:none;padding:0}
+
+.gall_b_lt .lt_cmt {color:#4493fe}

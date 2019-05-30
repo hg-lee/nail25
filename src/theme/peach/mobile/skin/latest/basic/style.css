@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/* 최근게시물 스킨 (latest) */
+.lt {position:relative;padding:15px 10px ;}
+.lt ul {margin:20px 0 0 ;padding:0;list-style:none;border-top:1px solid #e6e6e6}
+.lt h2 {font-size:1.385em}
+.lt li {position:relative;padding:15px 0 15px 30px;border-bottom:1px solid #e6e6e6;line-height:23px}
+.lt li .fa-file-text-o{position:absolute;top:20px;left:0;color:#e32464;font-size:18px}
+
+.lt .fa-download{width:16px;height:16px;line-height:16px;background:#e89f31;color:#fff;text-align:center;font-size:10px;border-radius:4px;vertical-align:middle;}
+.lt .fa-link{width:16px;height:16px;line-height:16px;background:#ad68d8;color:#fff;text-align:center;font-size:10px;border-radius:4px;vertical-align:middle;font-weight: normal;}
+.lt .fa-heart{width:16px;height:16px;line-height:16px;background:#ff66b0;color:#fff;text-align:center;font-size:10px;border-radius:4px;vertical-align:middle;;font-weight: normal;}
+.lt .new_icon{display:inline-block;width: 16px;line-height:16px ;font-size:0.833em;color:#ffff00;background:#6db142;border-radius:4px;text-align:center;vertical-align:middle;font-size:11px}
+.lt .hot_icon{display:inline-block;width: 16px;line-height:16px ;font-size:0.833em;color:#fff;background:#e52955;;border-radius:4pxtext-align:center;;vertical-align:middle;font-weight:normal;font-size:11px}
+.lt .fa-lock{display: inline-block;line-height: 14px;width: 16px;font-size: 0.833em;color: #fff;background: #262b88;text-align: center;border-radius: 4px;font-size: 12px;border:1px solid #262b88}
+
+ @media (max-width: 969px){
+    .lt {padding:20px}
+ }

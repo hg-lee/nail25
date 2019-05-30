@@ -1,0 +1,47 @@
+@font-face {
+    font-family:'AritaDotum';
+    font-style:normal;
+    font-weight: 100;
+    src: local('./fonts'),
+        url('./fonts/AritaDotumThin.woff2') format('woff2'), 
+        url('./fonts/AritaDotumThin.woff') format('woff'),
+        url('./fonts/AritaDotumThin.ttf') format('truetype'),
+        url('./fonts/AritaDotumThin.otf') format('opentype'),
+        url('./fonts/AritaDotumThin.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family:'AritaDotum';
+    font-style: normal;
+    font-weight: 400;
+    src: local('./fonts'),
+        url('./fonts/AritaDotumMedium.woff2') format('woff2'), 
+        url('./fonts/AritaDotumMedium.woff') format('woff'),
+        url('./fonts/AritaDotumMedium.ttf') format('truetype'),
+        url('./fonts/AritaDotumMedium.otf') format('opentype'),
+        url('./fonts/AritaDotumMedium.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family:'AritaDotum';
+    font-style:normal;
+    font-weight: 700;
+    src: local('./fonts'),
+        url('./fonts/AritaDotumSemiBold.woff2') format('woff2'), 
+        url('./fonts/AritaDotumSemiBold.woff') format('woff'),
+        url('./fonts/AritaDotumSemiBold.ttf') format('truetype'),
+        url('./fonts/AritaDotumSemiBold.otf') format('opentype'),
+        url('./fonts/AritaDotumSemiBold.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family:'AritaDotum';
+    font-style: normal;
+    font-weight: 900;
+    src: local('./fonts'),
+        url('./fonts/AritaDotumBold.woff2') format('woff2'), 
+        url('./fonts/AritaDotumBold.woff') format('woff'),
+        url('./fonts/AritaDotumBold.ttf') format('truetype'),
+        url('./fonts/AritaDotumBold.otf') format('opentype'),
+        url('./fonts/AritaDotumBold.eot') format('embedded-opentype');
+}

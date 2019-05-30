@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+/* 사진 스킨 (latest) */
+.gall_l_lt {position:relative;margin-bottom:30px;border-bottom:1px solid #eff1f3}
+.gall_l_lt .lat_title a {font-size:1.6em;text-align:left;padding-bottom:10px;margin-bottom:10px;position:relative}
+.gall_l_lt .lat_title a:after {content:"";width:35px;position:absolute;border-bottom:1px solid red;left:0;bottom:0}
+
+.gall_l_lt ul {margin-top:30px}
+.gall_l_lt li {clear:both;width:100%;margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid #eff1f3}
+.gall_l_lt li:last-child {border-bottom:0}
+.gall_l_lt li:after {display:block;visibility:hidden;clear:both;content:""}
+
+.gall_l_lt li .lt_img {margin-bottom:10px;display:block}
+.gall_l_lt li .lt_img img {width:230px;height:170px;float:left}
+.gall_l_lt li a strong {color:#fe4444}
+.gall_l_lt li a:hover {color:#4493fe}
+
+.gall_l_lt li .lat_ct {display:inline-block;float:left;width:450px;padding:0 15px}
+.gall_l_lt li .lat_tit {color:#000;font-size:1.2em;font-weight:bold}
+.gall_l_lt li .lat_info {color:#808080;font-size:1em;padding-top:10px;line-height:20px}
+.gall_l_lt li .lt_nick {font-size:0.98em}
+.gall_l_lt li .lt_nick img {border-radius:50%}
+.gall_l_lt li .lat_detail {margin:10px 0;font-size:1.2em;max-height:60px;color:#6d6d6d;overflow-y:hidden}
+
+.gall_l_lt li .fa-heart {color:#ff0000}
+.gall_l_lt li .fa-lock {display:inline-block;line-height:14px;width: 16px;font-size:0.833em;color:#fff;background:#ad68d8;text-align:center;border-radius:2px;border:1px solid #ad68d8;font-size:12px}
+.gall_l_lt li .new_icon {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#fff;background:#fe4444;text-align:center;border-radius:2px;margin-left:3px}
+.gall_l_lt li .hot_icon {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#fff;background:#e52955;text-align:center;border-radius:2px}
+.gall_l_lt li .fa-caret-right {color:#bbb}
+
+.gall_l_lt .empty_li {line-height:145px;color:#666;text-align:center;padding:0}
+.gall_l_lt .empty_li:before {background:none;padding:0}
+
+.gall_l_lt .lt_cmt {color:#4493fe}

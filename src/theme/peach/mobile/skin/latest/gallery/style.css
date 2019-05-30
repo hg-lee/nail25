@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.lt_gal ul:after {display:block;visibility:hidden;clear:both;content:""}
+.lt_gal li{float:left;width:33.333%;position:relative}
+.lt_gal li .lt_img img{width:100%;height:auto;vertical-align:top}
+.lt_gal li .gal_txt{opacity:0;;position:absolute;top:0;left:0;width:100%;height:100%;background:#000;background:rgba(0,0,0,0.6);z-index:2;}
+.lt_gal li:hover .gal_txt{opacity:1}
+
+.lt_gal li .lt_txt{display:table;height:100%;width:100%;position:relative;z-index:2;text-align:center}
+.lt_gal li .lt_tit{display:table-cell;vertical-align:middle;padding:0 5%}
+.lt_gal li strong{color:#fff;display:block;margin-bottom:10px;font-size:1.3em}
+.lt_gal li span{color:#c8c8c8;display:block}
+
+@media (max-width: 969px){
+    .lt_gal li{width:50%}
+ }
